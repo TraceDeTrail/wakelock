@@ -18,8 +18,12 @@ dependencies:
   wakelock_macos: ^0.4.0
   wakelock_platform_interface: ^0.3.0
   wakelock_web: ^0.4.0
-  wakelock_windows: ^0.2.1
-
+  wakelock_windows:
+      git:
+        url: https://github.com/TraceDeTrail/wakelock
+        ref: 087b605a5974ab2f4a07f11f13aea0dec65661fc # commit hash
+        path: wakelock_windows
+      
 dev_dependencies:
   flutter_test:
     sdk: flutter
